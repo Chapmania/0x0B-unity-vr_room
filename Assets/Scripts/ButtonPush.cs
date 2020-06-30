@@ -16,13 +16,9 @@ public class ButtonPush : MonoBehaviour
     Light buttonLight;
     Light lightShadow;
     Transform lightPos;
-    // Animation anim;
-
 
     void Awake()
     {
-        // Animation = GetComponent<Animation>();
-        // buttonMesh.material = originalButton;
         buttonMesh = button.GetComponent<MeshRenderer>();
         buttonSphere = button.GetComponent<SphereCollider>();
         buttonLight = button.GetComponent<Light>();
@@ -37,8 +33,6 @@ public class ButtonPush : MonoBehaviour
             buttonMesh.material = redButton;
             buttonLight.color = Color.red;
             particles.SetActive(true);
-            // RenderSettings.skybox.color = Color.black;
-            // changeLight.
         }
         if (LController.bounds.Intersects(buttonSphere.bounds) && OVRInput.GetDown(OVRInput.Button.Three))
         {

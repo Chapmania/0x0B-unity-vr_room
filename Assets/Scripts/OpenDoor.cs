@@ -8,7 +8,7 @@ public class OpenDoor : MonoBehaviour
     public Collider Lcontroller;
     Animator anim;
     Collider door;
-    void Start()
+    void Awake()
     {
         anim = GetComponent<Animator>();
         door = GetComponent<BoxCollider>();
@@ -34,12 +34,10 @@ public class OpenDoor : MonoBehaviour
     }
     void Open()
     {
-        // anim.SetTrigger("openthedoor");
         anim.SetBool("open_door", true);
     }
     void Close()
     {
-        // anim.SetTrigger("closethedoor");
         anim.SetBool("open_door", false);
     }
 }

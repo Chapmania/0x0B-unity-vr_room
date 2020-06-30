@@ -11,7 +11,7 @@ public class Grabber : MonoBehaviour
         if(other.gameObject.GetComponent<GameObject>())
                 collidingObject = other.gameObject;
     }
-public void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         collidingObject = null;
     }
