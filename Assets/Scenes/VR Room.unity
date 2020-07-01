@@ -13438,7 +13438,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1501456213
 MonoBehaviour:
@@ -15472,6 +15472,11 @@ PrefabInstance:
       propertyPath: m_grabObjectsInLayer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114619746081397232, guid: 0242aa8515b4bc947a945a5c6df83ee9,
+        type: 3}
+      propertyPath: m_maxGrabDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0242aa8515b4bc947a945a5c6df83ee9, type: 3}
 --- !u!1 &1723585042
@@ -16686,6 +16691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_focusColor.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114956354361317420, guid: 6fae51a9f4170334e8639e8dbfc0a54b,
+        type: 3}
+      propertyPath: m_maxGrabDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fae51a9f4170334e8639e8dbfc0a54b, type: 3}
