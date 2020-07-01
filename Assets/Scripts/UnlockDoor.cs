@@ -6,13 +6,13 @@ using UnityEngine.Audio;
 
 public class UnlockDoor : MonoBehaviour
 {
-    bool playSound = true;
     public Image knightImage;
     public GameObject knightPiece;
     public GameObject lockedText;
     public GameObject unlockedText;
     public GameObject door;
     public AudioSource unlockSound;
+    bool playSound = true;
     CapsuleCollider imageCollider;
     BoxCollider knightCollider;
     BoxCollider doorCollider;

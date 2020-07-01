@@ -11,11 +11,14 @@ public class ButtonPush : MonoBehaviour
     public Material redButton;
     public GameObject particles;
     public GameObject directionalLight;
+    public AudioSource buttonPress;
+    bool playSound = true;
     MeshRenderer buttonMesh;
     SphereCollider buttonSphere;
     Light buttonLight;
     Light lightShadow;
     Transform lightPos;
+    AudioSource playButtonPress;
 
     void Awake()
     {
@@ -24,21 +27,30 @@ public class ButtonPush : MonoBehaviour
         buttonLight = button.GetComponent<Light>();
         lightShadow = directionalLight.GetComponent<Light>();
         lightPos = directionalLight.GetComponent<Transform>();
+        playButtonPress = buttonPress.GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
     {
         if (RController.bounds.Intersects(buttonSphere.bounds) && OVRInput.GetDown(OVRInput.Button.One))
         {
-            buttonMesh.material = redButton;
-            buttonLight.color = Color.red;
-            particles.SetActive(true);
+            pushButton();
         }
         if (LController.bounds.Intersects(buttonSphere.bounds) && OVRInput.GetDown(OVRInput.Button.Three))
         {
-            buttonMesh.material = redButton;
-            buttonLight.color = Color.red;
-            particles.SetActive(true);
+            pushButton();
         }
+    }
+
+    void pushButton()
+    {
+        if (playSound)
+        {
+            playButtonPress.Play();
+            playSound = false;
+        }
+        buttonMesh.material = redButton;
+        buttonLight.color = Color.red;
+        particles.SetActive(true);
     }
 }
