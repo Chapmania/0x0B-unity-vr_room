@@ -7,6 +7,8 @@ This VR Escape Room is designed to be used with the Oculus Quest.
 - To interact with buttons and doors, press A on the right controller or X on the left.
 - Press B on the right controller to bring up and dismiss these instructions at any time.
 
+Please put on headphones for the full experience!
+
 ### Assets used:
 
 - [Universe Sounds](https://assetstore.unity.com/packages/audio/ambient/sci-fi/universe-sounds-free-pack-118865)
