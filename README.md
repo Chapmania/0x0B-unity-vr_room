@@ -34,6 +34,6 @@ Please put on headphones for the full experience!
 ### About Me
 Hi! My name is Marc and I'm learning software development for virtual and augmented reality. This virtual escape room is a project at the institution where I'm learning these new things. Boy oh boy it was a big challenge, but it has been my favorite coding project so far!
 
-I'm interested in creative pursuits using this technology, especially in conjunction with music. [Click here](https://open.spotify.com/artist/3Ov3QDJuqhsunNjmn5BBEY?si=Yzj2mgZXSfqL9z7CxR--5g) if you'd like to listen to my band [The Jolly Llamas](jollyllamas.com).
+I'm interested in creative pursuits using this technology, especially in conjunction with music. [Click here](https://open.spotify.com/artist/3Ov3QDJuqhsunNjmn5BBEY?si=Yzj2mgZXSfqL9z7CxR--5g) if you'd like to listen to my band [The Jolly Llamas](https://www.jollyllamas.com/).
 
 Here's my [LinkedIn](https://www.linkedin.com/in/marccavigli/) and [Twitter](https://twitter.com/MarcCavigli) accounts, if you're interested.
