@@ -3,7 +3,7 @@
 This VR Escape Room is designed to be used with the Oculus Quest.
 
 - To teleport, use your thumb on the the right touch pad.
-![teleport](https://imgur.com/Rc57vcu)
+[Imgur](https://i.imgur.com/Rc57vcu.jpg)
 - To pick up objects, press and hold the side button on either the right or left controller that your middle finger rests on.
 - To interact with buttons and doors, press A on the right controller or X on the left.
 - Press B on the right controller to bring up and dismiss these instructions at any time.
