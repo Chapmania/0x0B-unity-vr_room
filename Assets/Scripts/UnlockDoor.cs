@@ -81,9 +81,7 @@ public class UnlockDoor : MonoBehaviour
     void FixedUpdate()
     {
         if (knightCollider.bounds.Intersects(imageCollider.bounds))
-        {
             doorUnlock();
-        }
     }
 
     /// <summary>   
@@ -99,6 +97,7 @@ public class UnlockDoor : MonoBehaviour
         lockedText.SetActive(false);
         knightImage.enabled = false;
         unlockedText.SetActive(true);
+        // Door is unlocked by turning on its collider component
         doorCollider.enabled = true;
     }
 }

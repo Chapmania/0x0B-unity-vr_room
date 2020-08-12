@@ -31,6 +31,7 @@ public class HighlightObject : MonoBehaviour
 /// </summary>
     void OnTriggerStay(Collider other)
     {
+        // Objects that the player should be able to grab must have the tag "grabbable" in Unity
         if (touchCurrentRenderer == null && other.tag == "Grabbable")
         {
             touchCurrentRenderer = other.GetComponent<Renderer>();
