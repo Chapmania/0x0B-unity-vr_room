@@ -9,17 +9,18 @@ This VR Escape Room is designed to be used with the Oculus Quest and was created
 ![](https://i.imgur.com/yvIHkrr.jpg)
 
 ## Getting the game
+
 An APK is located in the 'Builds' directory. Download this APK and sideload it onto your Quest. For instructions on sideloading please refer to [this website](https://uploadvr.com/sideloading-quest-how-to/).
 
 ## Gameplay Instructions
 
-- To teleport, use your thumb on the the right touch pad.
+- To teleport, use your thumb on the the right touch pad:
 
 ![](https://imgur.com/Rc57vcu.jpg)
 
 - To pick up objects, press and hold the side button on either the right or left controller that your middle finger rests on.
 - To interact with buttons and doors, press A on the right controller or X on the left.
-- Press B on the right controller to bring up and dismiss these instructions at any time.
+- Press B on the right controller to bring up and dismiss these instructions at any time:
 
 ![](https://i.imgur.com/G9MPYM8.jpg)
 
@@ -32,6 +33,7 @@ Please put on headphones for the full experience!
 - [Universal Soundscapes](https://assetstore.unity.com/packages/audio/ambient/free-universal-soundscapes-169448)
 
 ### About Me
+
 Hi! My name is Marc and I'm learning software development for virtual and augmented reality. This virtual escape room is a project at the institution where I'm learning these new things. Boy oh boy it was a big challenge, but it has been my favorite coding project so far!
 
 I'm interested in creative pursuits using this technology, especially in conjunction with music. [Click here](https://open.spotify.com/artist/3Ov3QDJuqhsunNjmn5BBEY?si=Yzj2mgZXSfqL9z7CxR--5g) if you'd like to listen to my band [The Jolly Llamas](https://www.jollyllamas.com/).
